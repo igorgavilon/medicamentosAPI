@@ -15,5 +15,5 @@ function loadDrugs(){
 
     //var dados = JSON.parse(medicamentos);
     alert("hello");
-    document.getElementById('tela').innerHTML = dados[0].PRODUTO;
+    document.getElementById('tela').innerHTML = saida;
 }
