@@ -3,7 +3,7 @@ function loadDrugs(){
     var url_string = window.location.href;
     var url = new URL(url_string);
     var searchTerm = url.searchParams.get("search");
-    var saida = [];
+    var saida = "";
 
     if(searchTerm != null){
         if(searchTerm != ""){
