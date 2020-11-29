@@ -9,6 +9,7 @@ function loadDrugs(){
             console.log(medicamentos[i].PRODUTO);
             saida += medicamentos[i].PRODUTO;
         }
+        alert("Entrou no getJSON");
         document.getElementById('tela').innerHTML = saida;
     });
     
