@@ -16,7 +16,6 @@ function loadDrugs(){
                     saida += "</BR>";
                 }
                 alert("Entrou no getJSON");
-                document.getElementById('tela').innerHTML = saida;
             });
         }else{
             saida = "termo da pesquisa não informado (em branco)!";
@@ -24,5 +23,6 @@ function loadDrugs(){
     }else{
         saida = "termo da pesquisa não informado (null)!";
     }
+    document.getElementById('tela').innerHTML = saida;
 
 }
