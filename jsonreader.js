@@ -9,7 +9,7 @@ function loadDrugs(){
             console.log(medicamentos[i].PRODUTO);
             saida += medicamentos[i].PRODUTO;
         }
-        document.getElementById('tela').innerHTML = 'funcionou';
+        document.getElementById('tela').innerHTML = saida;
     });
     
 
