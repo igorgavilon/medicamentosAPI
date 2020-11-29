@@ -1,6 +1,6 @@
 function loadDrugs(){
     alert("chamou a função");
-    /*
+    
     $.getJSON("medicamentos.json", function(data) {
         medicamentos = data;
         var saida= '';
@@ -11,9 +11,9 @@ function loadDrugs(){
         }
         document.getElementById('tela').innerHTML = 'funcionou';
     });
-    */
+    
 
-    var dados = JSON.parse(medicamentos);
+    //var dados = JSON.parse(medicamentos);
     alert("hello");
     document.getElementById('tela').innerHTML = dados[0].PRODUTO;
 }
