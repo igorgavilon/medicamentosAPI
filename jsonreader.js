@@ -23,6 +23,6 @@ function loadDrugs(){
     }else{
         saida = "termo da pesquisa não informado (null)!";
     }
-    document.getElementById('tela').innerHTML = saida;
+    document.getElementById('tela').innerHTML = searchTerm;
 
 }
