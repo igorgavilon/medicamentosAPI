@@ -11,7 +11,7 @@ function loadDrugs(){
                 medicamentos = data;
                 saida += searchTerm;
                 //saida += "</BR>";
-                saida += (medicamentos[0].PRODUTO);
+                saida += (medicamentos[0]);
                 //for(i=0; i < 2; i++){
                  //   saida += (medicamentos[i].PRODUTO);
                  //   saida += "</BR>";
