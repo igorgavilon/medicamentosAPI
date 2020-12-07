@@ -12,7 +12,7 @@ function loadDrugs(){
                 saida += searchTerm;
                 saida += "</BR>";
                 for(i=0; i < 2; i++){
-                    saida += (medicamentos[i]);
+                    saida += (medicamentos[i].PRODUTO);
                     saida += "</BR>";
                 }
                 alert("Entrou no getJSON");
