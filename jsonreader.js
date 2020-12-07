@@ -10,12 +10,12 @@ function loadDrugs(){
             $.getJSON("medicamentos.json", function(data) {
                 medicamentos = data;
                 saida += searchTerm;
-                saida += "</BR>";
+                //saida += "</BR>";
                 saida += (medicamentos[0].PRODUTO);
-                for(i=0; i < 2; i++){
-                    saida += (medicamentos[i].PRODUTO);
-                    saida += "</BR>";
-                }
+                //for(i=0; i < 2; i++){
+                 //   saida += (medicamentos[i].PRODUTO);
+                 //   saida += "</BR>";
+                //}
                 alert("Entrou no getJSON");
             });
         }else{
